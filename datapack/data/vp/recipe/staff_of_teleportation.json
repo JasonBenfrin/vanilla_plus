@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": [
+    " EP",
+    " BE",
+    "B  "
+  ],
+  "key": {
+    "B": "minecraft:breeze_rod",
+    "E": "minecraft:echo_shard",
+    "P": "minecraft:ender_pearl"
+  },
+  "result": {
+    "id": "minecraft:stick",
+    "components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:consumable": {
+        "consume_seconds": 0.05,
+        "animation": "eat",
+        "sound": "minecraft:intentionally_empty",
+        "has_consume_particles": false
+      },
+      "minecraft:use_cooldown": {
+        "seconds": 5,
+        "cooldown_group": "staff_of_teleportation"
+      },
+      "minecraft:custom_name": {
+        "text": "Staff of Teleportation",
+        "italic": false
+      },
+      "minecraft:rarity": "rare",
+      "minecraft:custom_data": {
+        "vp": "staff_of_teleportation"
+      },
+      "minecraft:item_model": "vp:staff_of_teleportation"
+    },
+    "count": 1
+  }
+}
