@@ -1,0 +1,43 @@
+name: Deploy to Pebblehost
+
+permissions:
+  contents: write
+
+on:
+  push:
+    branches: main
+
+jobs:
+  datapack:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v6
+
+    - name: Upload Datapack
+      uses: Dylan700/sftp-upload-action@latest
+      with:
+        server: ${{secrets.PEBBLEHOST_SFTP_URL}}
+        port: ${{secrets.PEBBLEHOST_SFTP_PORT}}
+        username: ${{secrets.PEBBLEHOST_SFTP_USERNAME}}
+        password: ${{secrets.PEBBLEHOST_SFTP_PASSWORD}}
+        uploads: |
+          ./datapack/ => ./world/datapacks/vanilla_plus/
+        ignore: |
+          *.git
+  
+  resourcepack:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v6
+
+    - name: Zip Resourcepack
+      run: |
+        cd resourcepack
+        zip -r ../vanilla_plus_resourcepack.zip .
+    
+    - name: Release Resourcepack
+      uses: softprops/action-gh-release@v2
+      with:
+        tag_name: pack-${{ github.run_number }}
+        name: Resource pack ${{ github.run_number }}
+        files: vanilla_plus_resourcepack.zip
