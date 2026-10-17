@@ -1,0 +1,27 @@
+name: Deploy to Pebblehost
+
+permissions:
+  contents: write
+
+on:
+  push:
+    branches: main
+    paths: ["resourcepack/**"]
+
+jobs:
+  resourcepack:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v6
+
+    - name: Zip Resourcepack
+      run: |
+        cd resourcepack
+        zip -r ../vanilla_plus_resourcepack.zip .
+    
+    - name: Release Resourcepack
+      uses: softprops/action-gh-release@v2
+      with:
+        tag_name: pack-${{ github.run_number }}
+        name: Resource pack ${{ github.run_number }}
+        files: vanilla_plus_resourcepack.zip
