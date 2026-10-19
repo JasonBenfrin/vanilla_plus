@@ -2,7 +2,7 @@ execute if data entity @s Owner unless function vp:soul_snatcher/owner_id_check 
 
 function vp:soul_snatcher/get_mob_id
 function vp:soul_snatcher/get_mob_nbt
-execute as @p[predicate=vp:same_id_as_this] run function vp:soul_snatcher/give_snatched with storage vp:soul_snatcher.target
+function vp:soul_snatcher/give_snatched with storage vp:soul_snatcher.target
 
 execute at @s run function vp:soul_snatcher/snatch_line_7
 
