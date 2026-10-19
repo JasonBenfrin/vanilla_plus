@@ -1,0 +1,1 @@
+$data modify storage vp:soul_snatcher.regive count set from entity @s $(nbt)

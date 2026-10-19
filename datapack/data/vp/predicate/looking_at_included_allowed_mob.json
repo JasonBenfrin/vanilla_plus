@@ -1,0 +1,12 @@
+{
+  "type": "entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type_specific/player": {
+      "looking_at": {
+        "entity_type": "#vp:soul_snatcher_allowed",
+        "nbt": {"Tags": ["vp.looking_at.included"]}
+      }
+    }
+  }
+}

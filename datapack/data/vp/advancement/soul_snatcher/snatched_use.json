@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "right_click": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:heart_of_the_sea",
+          "predicates": {
+            "minecraft:custom_data": {
+              "vp": "soul_snatcher_snatched"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "vp:soul_snatcher/snatched/run"
+  }
+}

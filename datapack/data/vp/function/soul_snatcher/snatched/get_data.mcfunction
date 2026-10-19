@@ -1,0 +1,2 @@
+execute if items entity @s weapon.mainhand *[custom_data~{vp:"soul_snatcher_snatched"}] run return run data modify storage vp:soul_snatcher_snatched.resummon data set from entity @s SelectedItem.components."minecraft:custom_data".data
+execute if items entity @s weapon.offhand *[custom_data~{vp:"soul_snatcher_snatched"}] run return run data modify storage vp:soul_snatcher_snatched.resummon data set from entity @s equipment.offhand.components."minecraft:custom_data".data

@@ -1,0 +1,1 @@
+return run execute on owner if score $vp.this vp.ID = @s vp.ID

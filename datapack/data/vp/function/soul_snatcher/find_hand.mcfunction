@@ -1,0 +1,2 @@
+execute if items entity @s weapon.mainhand *[custom_data~{vp:"soul_snatcher"}] run return run data merge storage vp:soul_snatcher.regive { hand: "mainhand", nbt: "SelectedItem.count" }
+execute if items entity @s weapon.offhand *[custom_data~{vp:"soul_snatcher"}] run return run data merge storage vp:soul_snatcher.regive { hand: "offhand", nbt: "equipment.offhand.count" }

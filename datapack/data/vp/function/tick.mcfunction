@@ -1,0 +1,1 @@
+execute as @a unless score @s vp.ID = @s vp.ID store result score @s vp.ID run scoreboard players add $vp.new vp.ID 1

@@ -1,0 +1,1 @@
+data modify storage vp:soul_snatcher.target nbt set from entity @s
