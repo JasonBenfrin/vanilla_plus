@@ -1,2 +1,2 @@
-$item replace entity @s weapon.$(hand) with air
-$item replace entity @s weapon.$(hand) with minecraft:stick[minecraft:max_stack_size=1,minecraft:consumable={consume_seconds:0.05,animation:"block",sound:"minecraft:intentionally_empty",has_consume_particles:0b},minecraft:use_cooldown={seconds:5,cooldown_group:"staff_of_teleportation"},minecraft:custom_name={text:"Staff of Teleportation",italic:0b},minecraft:rarity="rare",minecraft:custom_data={vp:"staff_of_teleportation"},minecraft:item_model="vp:staff_of_teleportation"]
+execute if items entity @s weapon.mainhand *[custom_data~{vp:"staff_of_teleportation"}] run return run function vp:staff_of_teleportation/replace_item {hand: "mainhand"}
+execute if items entity @s weapon.offhand *[custom_data~{vp:"staff_of_teleportation"}] run return run function vp:staff_of_teleportation/replace_item {hand: "offhand"}
