@@ -1,0 +1,323 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "minecraft:allay",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vp:item/soul_snatcher_snatched/allay"
+        }
+      },
+      {
+        "when": "minecraft:armadillo",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vp:item/soul_snatcher_snatched/armadillo"
+        }
+      },
+      {
+        "when": "minecraft:bat",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vp:item/soul_snatcher_snatched/bat"
+        }
+      },
+      {
+        "when": "minecraft:camel",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vp:item/soul_snatcher_snatched/camel"
+        }
+      },
+      {
+        "when": "minecraft:camel_husk",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vp:item/soul_snatcher_snatched/camel_husk"
+        }
+      },
+      {
+        "when": "minecraft:cat",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vp:item/soul_snatcher_snatched/cat"
+        }
+      },
+      {
+        "when": "minecraft:chicken",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vp:item/soul_snatcher_snatched/chicken"
+        }
+      },
+      {
+        "when": "minecraft:cod",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vp:item/soul_snatcher_snatched/cod"
+        }
+      },
+      {
+        "when": "minecraft:copper_golem",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vp:item/soul_snatcher_snatched/copper_golem"
+        }
+      },
+      {
+        "when": "minecraft:cow",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vp:item/soul_snatcher_snatched/cow"
+        }
+      },
+      {
+        "when": "minecraft:donkey",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vp:item/soul_snatcher_snatched/donkey"
+        }
+      },
+      {
+        "when": "minecraft:frog",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vp:item/soul_snatcher_snatched/frog"
+        }
+      },
+      {
+        "when": "minecraft:glow_squid",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vp:item/soul_snatcher_snatched/glow_squid"
+        }
+      },
+      {
+        "when": "minecraft:happy_ghast",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vp:item/soul_snatcher_snatched/happy_ghast"
+        }
+      },
+      {
+        "when": "minecraft:horse",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vp:item/soul_snatcher_snatched/horse"
+        }
+      },
+      {
+        "when": "minecraft:mooshroom",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vp:item/soul_snatcher_snatched/mooshroom"
+        }
+      },
+      {
+        "when": "minecraft:mule",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vp:item/soul_snatcher_snatched/mule"
+        }
+      },
+      {
+        "when": "minecraft:ocelot",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vp:item/soul_snatcher_snatched/ocelot"
+        }
+      },
+      {
+        "when": "minecraft:parrot",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vp:item/soul_snatcher_snatched/parrot"
+        }
+      },
+      {
+        "when": "minecraft:pig",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vp:item/soul_snatcher_snatched/pig"
+        }
+      },
+      {
+        "when": "minecraft:rabbit",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vp:item/soul_snatcher_snatched/rabbit"
+        }
+      },
+      {
+        "when": "minecraft:salmon",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vp:item/soul_snatcher_snatched/salmon"
+        }
+      },
+      {
+        "when": "minecraft:sheep",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vp:item/soul_snatcher_snatched/sheep"
+        }
+      },
+      {
+        "when": "minecraft:skeleton_horse",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vp:item/soul_snatcher_snatched/skeleton_horse"
+        }
+      },
+      {
+        "when": "minecraft:sniffer",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vp:item/soul_snatcher_snatched/sniffer"
+        }
+      },
+      {
+        "when": "minecraft:snow_golem",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vp:item/soul_snatcher_snatched/snow_golem"
+        }
+      },
+      {
+        "when": "minecraft:squid",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vp:item/soul_snatcher_snatched/squid"
+        }
+      },
+      {
+        "when": "minecraft:strider",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vp:item/soul_snatcher_snatched/strider"
+        }
+      },
+      {
+        "when": "minecraft:turtle",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vp:item/soul_snatcher_snatched/turtle"
+        }
+      },
+      {
+        "when": "minecraft:villager",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vp:item/soul_snatcher_snatched/villager"
+        }
+      },
+      {
+        "when": "minecraft:wandering_trader",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vp:item/soul_snatcher_snatched/wandering_trader"
+        }
+      },
+      {
+        "when": "minecraft:zombie_horse",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vp:item/soul_snatcher_snatched/zombie_horse"
+        }
+      },
+      {
+        "when": "minecraft:bee",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vp:item/soul_snatcher_snatched/bee"
+        }
+      },
+      {
+        "when": "minecraft:dolphin",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vp:item/soul_snatcher_snatched/dolphin"
+        }
+      },
+      {
+        "when": "minecraft:fox",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vp:item/soul_snatcher_snatched/fox"
+        }
+      },
+      {
+        "when": "minecraft:goat",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vp:item/soul_snatcher_snatched/goat"
+        }
+      },
+      {
+        "when": "minecraft:iron_golem",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vp:item/soul_snatcher_snatched/iron_golem"
+        }
+      },
+      {
+        "when": "minecraft:llama",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vp:item/soul_snatcher_snatched/llama"
+        }
+      },
+      {
+        "when": "minecraft:nautilus",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vp:item/soul_snatcher_snatched/nautilus"
+        }
+      },
+      {
+        "when": "minecraft:panda",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vp:item/soul_snatcher_snatched/panda"
+        }
+      },
+      {
+        "when": "minecraft:polar_bear",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vp:item/soul_snatcher_snatched/polar_bear"
+        }
+      },
+      {
+        "when": "minecraft:trader_llama",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vp:item/soul_snatcher_snatched/trader_llama"
+        }
+      },
+      {
+        "when": "minecraft:wolf",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vp:item/soul_snatcher_snatched/wolf"
+        }
+      },
+      {
+        "when": "minecraft:zombie_nautilus",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vp:item/soul_snatcher_snatched/zombie_nautilus"
+        }
+      },
+      {
+        "when": "minecraft:zombified_piglin",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vp:item/soul_snatcher_snatched/zombified_piglin"
+        }
+      }
+    ]
+  }
+}
