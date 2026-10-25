@@ -7,7 +7,5 @@ function vp:soul_snatcher/give_snatched with storage vp:soul_snatcher.target
 execute at @s run function vp:soul_snatcher/snatch_line_7
 
 gamerule minecraft:show_death_messages false
-tp @s ~ -256 ~
-kill @s
-data modify entity @s DeathTime set value 200
+function vp:soul_snatcher/tp_and_kill
 gamerule minecraft:show_death_messages true

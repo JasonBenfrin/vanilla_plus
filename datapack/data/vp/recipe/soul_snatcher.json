@@ -27,7 +27,8 @@
       "minecraft:rarity": "uncommon",
       "minecraft:custom_data": {
         "vp": "soul_snatcher"
-      }
+      },
+      "minecraft:item_model": "vp:soul_snatcher"
     }
   }
 }
