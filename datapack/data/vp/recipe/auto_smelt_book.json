@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "show_notification": true,
   "pattern": [
     "HBH",
     "EDF",
