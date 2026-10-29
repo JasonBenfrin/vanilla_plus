@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "obtain_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blast_furnace",
+              "minecraft:book",
+              "minecraft:furnace",
+              "minecraft:coal",
+              "minecraft:charcoal",
+              "minecraft:hopper",
+              "minecraft:dropper"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "vp:auto_smelt_book"
+    ]
+  }
+}
