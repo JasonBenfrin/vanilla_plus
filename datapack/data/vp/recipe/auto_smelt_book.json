@@ -16,7 +16,7 @@
   "result": {
     "id": "minecraft:enchanted_book",
     "components": {
-      "minecraft:enchantments": {
+      "minecraft:stored_enchantments": {
         "vp:auto_smelt": 1
       }
     }
