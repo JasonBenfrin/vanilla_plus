@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "HBH",
+    "EDF",
+    "CCC"
+  ],
+  "key": {
+    "E": "minecraft:blast_furnace",
+    "B": "minecraft:book",
+    "F": "minecraft:furnace",
+    "C": "#minecraft:coals",
+    "H": "minecraft:hopper",
+    "D": "minecraft:dropper"
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:enchantments": {
+        "vp:auto_smelt": 1
+      }
+    }
+  }
+}

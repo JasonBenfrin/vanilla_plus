@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:match_tool",
+  "predicate": {
+    "predicates": {
+      "minecraft:enchantments": [
+        {
+          "enchantments": "vp:auto_smelt",
+          "levels": {
+            "min": 1
+          }
+        }
+      ]
+    }
+  }
+}
