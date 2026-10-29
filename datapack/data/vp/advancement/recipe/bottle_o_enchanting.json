@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "obtain_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lapis_lazuli",
+              "minecraft:lapis_block",
+              "minecraft:glass_bottle"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "vp:bottle_o_enchanting"
+    ]
+  }
+}

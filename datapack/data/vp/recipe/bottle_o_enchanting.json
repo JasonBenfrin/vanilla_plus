@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "misc",
+  "pattern": [
+    "LLL",
+    "LBL",
+    "LLL"
+  ],
+  "key": {
+    "L": "minecraft:lapis_block",
+    "B": "minecraft:glass_bottle"
+  },
+  "result": {
+    "id": "minecraft:experience_bottle",
+    "count": 64
+  }
+}
